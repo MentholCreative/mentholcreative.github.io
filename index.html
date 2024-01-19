@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="box">
+        
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="blog" onclick="showblog()" class="animated fadeIn" style="animation-delay:2.2s;">blog</a>
+    
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <a><img src="https://i.ibb.co/x12VVCP/Menthol-Creative-Logo-Vector.png" alt="Menthol-Creative-Logo-Vector" width="100" 
+            height="100"/></a>
+        <h2>Web Design / Writing  / Graphic Design </h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+            <a onclick="showblog()">blog</a>
+        </div>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>work.</h1>
+        <section>
+            <h2>12 O' Clock Bites</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Graphic Design</div>
+            </div>
+            <button class="btn_two">read more</button>
+        </section>
+        <section>
+            <h2>Work Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Graphic Design</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_two">button 2</button>
+        </section>
+        <section     
+            <h2>work title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_two">button 2</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>Menthol Creative is a digital design agency built to refresh brands.</h2>
+                <p>
+                We believe great online presence isn't just an afterthought as we work to move people with your brand. Our goal is providing precision
+                to all of our digital services,bringing a striaght-to-the-point approach to developing . There isn't any unneccesary flash or trendy jargon,
+                just a great way to get to the center of what vitalizes ideas and goals. Less is often more. And at Menthol Creative, we've perfected the art of breathing life into brands with simplicity.
+                </p>
+            </section>
+            <section>
+                <h1>services.</h1>
+                <h2><b>Web Design</b></h2>
+                <ul>
+                <li><b>Coffee Chat:</b> Let's brainstorm, over coffee or virtually, to understand your vision, target audience, and desired website features. Think of it as building a website mood board, but with real experts!</li>
+                <li><b>Design Sketchpad:</b> We will whip up stunning mockups based on your preferences. 
+                We'll refine, tweak, and polish until you fall in love with the design.</li>
+                <li><b>Building Blocks:</b> We'll bring your website to life, line by line of code. We use 
+                secure, up-to-date platforms, so you can rest assured knowing your staying ahead of the game.</li>
+                <li><b>Launched, Live, and Ready:</b> We'll walk you through managing your site,
+                so you're the confident captain of your online ship.</li>
+                <li><b>Also!</b> We're not just a one-and-done crew. We offer ongoing support 
+                and maintenance, ensuring your website stays fresh.</li>
+                </ul>
+
+                <h2><b>Graphic Design</b></h2>
+                <ul>
+                <li><b>Creative Kickoff:</b> We dive into your brand identity, target audience, and desired aesthetic. We will brainstorn with 
+                expert guidance to ensure your visuals hit the mark.</li>
+                <li><b>Pixel Perfection:</b> Our design wizards bring your chosen concept to life, 
+                adding polish and precision to every detail. We handle revisions seamlessly, ensuring your final visuals are flawless.</li>
+                <li><b>Distiguished Delivery:</b> You receive your high-resolution, 
+                ready-to-use visuals in the formats you need. We even provide usage guidelines for maximum impact.</li>
+                <li><b>Bonus!</b>We're your ongoing design partners! 
+                We offer maintenance packages to keep your visuals updated, ready to tackle future design needs.</li>
+                </ul>
+
+                <h2><b>Writing</b></h2>
+                <ul>
+                <li><b>Brainstorm:</b> Grab a cup (virtual or IRL), and let's chat! We'll get to know your brand, target audience, and content goals. 
+                Think of it as a casual mind meld, but with expert direction.</li>
+                <li><b>Tailored Content Packages:</b> We provide writing services such as website copy + blog posts + social media content all in a package format.
+                We'll discuss what types of contnent you need and bundle your services for a discount!</li>
+                <li><b>Pen to Paper (or Pixels):</b> Our writers weave magic with words, crafting compelling content 
+                that captures your voice and resonates with your readers. We handle research, revisions, and optimization, so you can relax.</li>   
+                <li><b>Publish & Prosper:</b>We offer maintenance plans to keep your content fresh
+                 and engaging, always here to tackle writer's block for you.</li>
+                </ul> 
+
+            </section>
+
+    </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact us</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_two">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="blog_container" class="container">
+            <div onclick="closeblog()"><i class="fas fa-angle-up"></i></div>
+            <h1>blog.</h1>
+            <section>
+            </section>    
+
+            <div id="footer">
+    <script src="index.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
